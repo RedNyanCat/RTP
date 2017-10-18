@@ -1,0 +1,19 @@
+name: RTP
+version: 1.0
+main: me.RedNyanCat.RTP
+description: Custom Random Teleport
+
+commands:
+    rtp:
+        usage: /command <usage>
+        aliases: [wild]
+        description: Randomly Teleports
+
+        
+permissions:
+    rtp.tp:
+        default: op
+    rtp.tp.other:
+        default: op
+    rtp.notify:
+        default: op

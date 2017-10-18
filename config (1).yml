@@ -1,0 +1,15 @@
+rtp:
+x: 100 - how far out in the x direction from the player
+y: 100 - how far out in the y direction from the player
+z: 100 - how far out in the z direction from the player
+
+countdown: true - Needs to be enabled for the timer to work
+timer: 3 - timer countdown time
+
+msgs: - Valid placeholders; %sender% (The sender of the command) and %target% (The target of the command).
+noPerm: " &4&lInsufficient permissions."
+unknownCmd: " You need to be a player to teleport yourself! try /wild [player] [-s]!"
+forceWild: "&2 %sender% &3&lteleported&2 you &3&lagainst your will!"
+notifyWild: "&2 %sender% &3&lteleported&2 %target% &3&lagainst their will!"
+senderMsg: " &3&lTeleported&2 %target% &3against their will!"
+tpMsg: " &3Teleported!"
